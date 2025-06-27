@@ -1,0 +1,41 @@
+.product-detail {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.product-detail img {
+  max-width: 300px;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.detail-info {
+  flex: 1;
+  min-width: 280px;
+}
+
+.detail-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.detail-info p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.detail-info h3 {
+  color: #000;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.detail-info span {
+  font-size: 0.9rem;
+  color: #777;
+}
